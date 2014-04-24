@@ -1,0 +1,172 @@
+/* General */
+.clear         {clear:both;font-size:0;height:0;line-height:0;overflow:hidden;}
+
+table td       {
+	padding-right:10px;
+	white-space:nowrap;
+}
+
+
+#createaccount input[type=text], #createaccount input[type=password]{
+  width:300px;
+}
+#createaccount select{
+  width:300px;
+}
+#createaccount .toprows{
+  padding:4px 0px;
+}
+#createaccount #emailerror{
+  color:red;
+}
+
+.wiz, .wiz table{
+  font-size:14px;
+}
+
+.content{
+  width:50%;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  border: 1px gray solid;
+  padding: 35px 15px;
+}
+.contentwide{
+  width:55%;
+}
+.dimpled button{
+  padding:7px;
+  margin: 2px 5px;
+}
+#_docwrite_welcome3{
+  margin: 5px 0px;
+}
+.dimpled img{
+  margin:auto;
+}
+#_docwrite_welcome1{
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+}
+.dimpled img{
+  margin-left: 100px;
+}
+#reenterpassword{
+  width:300px;
+}
+.createlink{
+  font-weight:normal !important;
+  font-size:inherit !important;
+}
+
+.imgcenter{
+  display:block !important;
+  margin:0px auto !important;
+}
+
+.dialog{
+  border:1px solid #949494;
+  border-radius: 2px;
+  background:#e6e6e6;
+  color:#4c4c4c;
+  margin:50px auto;
+}
+
+#googleauth, #outofband, #yubikey, #sesame, #grid{
+  width:702px;
+  height:290px;
+  border:1px solid #949494;
+  border-radius: 2px;
+  background:#e6e6e6;
+  color:#4c4c4c;
+  margin:50px auto;
+}
+.multiheader{
+  background:white;
+  border-bottom:1px solid #949494;
+  height:64px;
+}
+.multiheader img{
+   padding:20px 0 0 20px;
+}
+
+.leftcol{
+  float:left;
+}
+
+.multileft{
+  width:472px;
+  border-right:1px solid #c3c3c3;
+  padding:8px;
+  font-size:14px;
+  min-height:210px;
+}
+.multileft a{
+  text-decoration:none;
+  color:#848484;
+  float:right;
+  font-size:12px;
+}
+
+#googright{
+  background:url(gauthlastpass.png) no-repeat center center;
+  width:200px;
+  height:200px;
+}
+
+.multiright{
+  background:url(gauthlastpass.png) no-repeat center center;
+  width:200px;
+  height:200px;
+}
+
+#yubiright{
+  background:url(yubikeyicon2.jpg) no-repeat center center;
+  width:200px;
+  height:200px;
+}
+#sesameright{
+  background:url(step2.gif) no-repeat center center;
+  width:150px;
+  height:150px;
+}
+#gridright{
+  background:url(spreadsheet.png) no-repeat center center;
+  width:200px;
+  height:200px;
+}
+
+
+
+
+
+#googleauthotp{
+  width:100px;
+  height:24px;
+  padding-left:20px;
+}
+.multienter{
+  font-weight:bold;
+  margin:0px;
+}
+.multidesc{
+  padding-top:18px;
+}
+.multititle{
+  float:right;
+  padding:20px 10px 0 0;
+}
+.lost{
+  padding-left:50px;
+}
+.vault-table{
+  border-top:1px solid #c3c3c3
+}
+#googleauthauth{
+  height:30px;
+}
+#labelgoogleauth{
+  padding:5px 3px;
+}

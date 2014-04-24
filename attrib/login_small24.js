@@ -1,0 +1,1 @@
+sr(document,"login","value","Login");sr(document,"cancel","value","Cancel");sr(document,"forgot","innerHTML","I Forgot my Password");sr(document,"screenkeyboard","innerHTML","Screen Keyboard");sr(document,"createaccount","innerHTML","Create Account");

