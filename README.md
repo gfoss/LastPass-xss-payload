@@ -28,11 +28,11 @@
 
 #Payload
 
-ONLY USE THIS PAYLOAD LEGALLY, AGAINST AUTHORIZED TARGETS
-THE DEVELOPER OF THIS PAYLOAD IS NOT LIABLE FOR ILLEGAL/QUESTIONABLE ACTIVITIES CONDUCTED WITH THIS TOOL
-BY USING THIS TOOL, YOU AGREE THAT YOU HAVE READ AND UNDERSTAND THESE TERMS
+		ONLY USE THIS PAYLOAD LEGALLY, AGAINST AUTHORIZED TARGETS
+		THE DEVELOPER OF THIS PAYLOAD IS NOT LIABLE FOR ILLEGAL/QUESTIONABLE ACTIVITIES CONDUCTED WITH THIS TOOL
+		BY USING THIS TOOL, YOU AGREE THAT YOU HAVE READ AND UNDERSTAND THESE TERMS
 
-		This is a payload designed to exploit Cross-Site Scripting (XSS) vulnerabilities in web applications and steal LastPass login credentials. The payload consists of multiple files, most of which are simply clones of client-side code used by LastPass. Exploitation using this payload is simple, just host all of these files on your server and modify the xss.html contents to point to your server and inject this code into a vulnerable parameter.
+This is a payload designed to exploit Cross-Site Scripting (XSS) vulnerabilities in web applications and steal LastPass login credentials. The payload consists of multiple files, most of which are simply clones of client-side code used by LastPass. Exploitation using this payload is simple, just host all of these files on your server and modify the xss.html contents to point to your server and inject this code into a vulnerable parameter.
 
 --------------------------------------------------
 
